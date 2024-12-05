@@ -25,7 +25,21 @@ In this instruction, I use pyenv for the virtual environment and python 3.9.17. 
 
 ## How to use this tutorial
 
+### Setup your MySQL server on local
+
 1. I assume you already have a MySQL server on locale, if not, download from [here](https://dev.mysql.com/downloads/mysql/) and follow the instruction to install.
 2. Download the dataset from Kaggle [here](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data?select=sales_data_sample.csv).
 In my case, I saved it into /tmp/ so that it can be accessible to the MySQL server on my local.
-3. 
+3. Upload CSV to MySQL table 
+
+```commandline
+python upload_csv_to_sql_table.py
+```
+
+### Run app without RAG to see how it performs
+
+``` streamlit run app.py```
+
+### Run app with RAG
+
+``` streamlit run app_with_rag.py```

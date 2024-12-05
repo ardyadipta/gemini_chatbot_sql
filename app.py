@@ -1,3 +1,7 @@
+### Chatbot to ask your SQL database
+### Author: Ardya Dipta Nandaviri ardyadipta@gmail.com
+### Date : Nov 28, 2024
+
 import os
 from dotenv import load_dotenv
 import streamlit as st
