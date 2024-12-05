@@ -1,0 +1,14 @@
+chardet==5.2.0
+chromadb==0.5.15
+faiss-cpu==1.9.0
+grpcio-status==1.62.3
+httptools==0.6.4
+langchain-community==0.3.3
+langchain-google-genai==2.0.1
+langchain-huggingface==0.1.2
+mysql-connector-python==9.1.0
+pyodbc==5.2.0
+streamlit==1.38.0
+uvloop==0.21.0
+watchfiles==0.24.0
+websockets==13.1
